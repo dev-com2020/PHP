@@ -1,0 +1,112 @@
+body {
+    width: 500px;
+    margin: auto;
+    border: 1px dotted gray;
+    padding: 7px;
+    padding-bottom: 15px;
+}
+
+.inguess,
+.reset_button,
+.buttkey {
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 0 2px 2px #EAEAEA;
+    -webkit-box-shadow: 0 0 2px 2px #EAEAEA;
+    box-shadow: 0 0 2px 2px #EAEAEA;
+    font-size: 15px;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.inguess:hover,
+.reset_button:hover,
+.buttkey:hover {
+    -moz-box-shadow: 0 0 2px 2px #CCCCCC;
+    -webkit-box-shadow: 0 0 2px 2px #CCCCCC;
+    box-shadow: 0 0 2px 2px #CCCCCC;
+    border: 1px solid #4876FF;
+}
+
+.life_bar {
+    border: 1px solid #E3E3E3;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.life_lost {
+    float: left;
+    background-color: #FF3030;
+    height: 20px;
+}
+
+.life_have {
+    background-color: #7FFF00;
+    height: 20px;
+}
+
+.input_area {
+    border: 1px solid #E3E3E3;
+    background-color: #F5F5F5;
+    margin: auto;
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+*.input_area:hover {
+    background-color: white;
+}
+
+.inguess {
+    text-align: center;
+    width: 25px;
+    margin: 3px;
+}
+
+.buttkey {
+    width: 35px;
+    margin-bottom: 3px;
+}
+
+.buttkey:disabled {
+    background-color: #FFD700;
+    -moz-box-shadow: 0 0 0px 0px #CCCCCC;
+    -webkit-box-shadow: 0 0 2px 2px #CCCCCC;
+    box-shadow: 0 0 0px 0px #CCCCCC;
+}
+
+.buttkey:disabled:hover {
+    background-color: #FFD700;
+}
+
+.keyboard {
+    border: 1px solid #E3E3E3;
+    width: 370px;
+    background-color: #F5F5F5;
+    margin: auto;
+    padding: 7px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.keyboard:hover {
+    background-color: white;
+}
+
+.reset_button:hover {
+    background-color: #4876FF;
+    color: white;
+}
+
+form {
+    display: inline;
+}
